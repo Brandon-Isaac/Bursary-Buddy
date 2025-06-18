@@ -201,9 +201,6 @@ export default function DashboardPage() {
                   <li key={bursary.id} className="p-3 bg-muted/50 rounded-md">
                     <div className="flex justify-between items-center">
                       <Link href={`/bursaries/${bursary.id}`} className="font-semibold hover:underline">{bursary.name}</Link>
-                      <Badge variant={new Date(bursary.deadline) < new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) ? "destructive" : "secondary"}>
-                        {format(new Date(bursary.deadline), 'MMM d, yyyy')}
-                      </Badge>
                     </div>
                     <p className="text-xs text-muted-foreground">{bursary.provider}</p>
                   </li>
