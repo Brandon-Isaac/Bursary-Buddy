@@ -35,7 +35,7 @@ Follow these steps to explore the features of Bursary Buddy:
 1.  **Landing Page:**
     - When you first visit the application, you'll see the landing page.
     - Click on "Get Started Free" or "Sign In" (both lead to the dashboard for this demo).
-    - ![alt text](<../../Pictures/Screenshots/Screenshot 2025-06-18 153703.png>)
+    - ![alt text](imagge.png)
 
 2.  **Dashboard Overview:**
     - You are now on the main dashboard.
